@@ -18,7 +18,7 @@ function player_update(){
     });
 }
 function new_image(get_image){
-    fabric.Image.fromURL("get_image",function(Img){
+    fabric.Image.fromURL(get_image,function(Img){
         blockimageobject=Img;
         blockimageobject.scaleToWidth(blockimagewidth);
         blockimageobject.scaleToHeight(blockimagehight);
